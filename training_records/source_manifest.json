@@ -1,0 +1,20 @@
+[
+  {
+    "seed": 123,
+    "source_zip": "llama31_8b_low_noise_report.zip",
+    "source_sha256": "e2b94aaa30f0b4ac0c1323f992ae55476655d7a9a2399f1fc609e2fa4487c54e",
+    "suite_config_hash_verified": "31023399d743bf41ece4b39e893cda8a3925c11cded34a238caa9bec1086f00d"
+  },
+  {
+    "seed": 456,
+    "source_zip": "llama31_8b_low_noise_report (1).zip",
+    "source_sha256": "81836639cf1bbb3772863348d70412f4253fcd206df9a421e7f0aa83c58c04f4",
+    "suite_config_hash_verified": "c62bdd1beb1363f4043fd037efd7062fe1dc54fbe7fa33039a1c1dcff9500345"
+  },
+  {
+    "seed": 789,
+    "source_zip": "llama31_8b_low_noise_report (2).zip",
+    "source_sha256": "1e96bb7d4a1a28fb9259e37a07a60899e6ff48e830bbb96abb9eddfcfd5a5e48",
+    "suite_config_hash_verified": "44d713a39d51cd99fb088ee4f00f96d6147cea4f9cf5cc626b2b81028f7713a2"
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "common": {
+    "engine": "explicit_per_example_opacus_poisson_v1",
+    "run_mode": "llama_low_noise_development_pilot",
+    "initialization_seed": 456,
+    "model_id": "meta-llama/Llama-3.1-8B",
+    "model_revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+    "training_data_hash": "8fa67144a77c3d3d6ee8842d64d02388fcd515742b588259a697c4ea81a71a89",
+    "evaluation_split_hash": "c459971126e486669590112887ab23837a6cb5b6bad5023f1323878b4bc840ca",
+    "nominal_training_records": 995,
+    "sample_rate": 0.016080402010050253,
+    "expected_batch_size": 16,
+    "steps": 63,
+    "max_length": 256,
+    "sampling": "independent Bernoulli inclusion per record per logical step; shared in-memory draws",
+    "normalization": "fixed expected batch size including empty draws",
+    "base_dtype": "bfloat16",
+    "adapter_dtype": "float32",
+    "lora": {
+      "r": 8,
+      "alpha": 16,
+      "targets": [
+        "q_proj",
+        "v_proj"
+      ],
+      "dropout": 0.0
+    },
+    "learning_rate": 0.0001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "adam_epsilon": 1e-08,
+    "weight_decay": 0.0,
+    "scheduler": "constant",
+    "loss": "mean answer+EOS CE per record; gradient sum divided by expected batch size",
+    "accountant": "rdp",
+    "delta": 1e-05,
+    "adjacency": "add_remove_one_selected_QA_record",
+    "secure_mode": false,
+    "production_private_release": false,
+    "public_demonstrations": [
+      {
+        "question_id": "sfq_8136",
+        "question": "What is the common name of the lymphatic tissue between the back of the nose and the throat?",
+        "answer": "Adenoids"
+      },
+      {
+        "question_id": "bb_1884",
+        "question": "What structural modification of oxygen is an air pollutant in the lower atmosphere but beneficial in the upper atmosphere?",
+        "answer": "Ozone"
+      },
+      {
+        "question_id": "sfq_614",
+        "question": "For her role as Lindy Chamberlain, in which 1988 film, was Meryl Streep nominated for the Oscar for best actress?",
+        "answer": "A CRY IN THE DARK"
+      },
+      {
+        "question_id": "sfq_13461",
+        "question": "Which former leader of the Labour Party is buried on Iona?",
+        "answer": "JOHN SMITH"
+      },
+      {
+        "question_id": "tc_2950",
+        "question": "What is the pigment that colors skin?",
+        "answer": "Melanin"
+      }
+    ],
+    "public_demonstration_hash": "faca35ef02cc7b560e0a1991d2d3d2707c719c3a4fc2513d4812d351e1c51f3b",
+    "preflight_manifest_hash": "b511ec750259a07991a875ee29528f359ebe1bf4603e5700eccd416ed3160be7",
+    "original_train_hash": "ac9b712f8f41f98298637549a4e743d6e665b48011a9877f12b886965188af77",
+    "protected_scope": "995 selected records; conditional on fixed public demonstrations and selected cohort",
+    "prompt_version": "five_shot_qa_completion_newline_v1",
+    "gradient_checkpointing": "non-reentrant",
+    "randomness": "fresh independent research PRNGs; sampling and noise seeds not persisted",
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.46.3",
+      "peft": "0.13.2",
+      "accelerate": "1.1.1",
+      "opacus": "1.6.0",
+      "numpy": "2.1.3",
+      "tokenizers": "0.20.3",
+      "huggingface-hub": "0.26.2",
+      "safetensors": "0.4.5"
+    },
+    "gpu": "NVIDIA L4"
+  },
+  "conditions": [
+    {
+      "condition": "standard_poisson",
+      "clip_norm": null,
+      "noise_multiplier": 0.0
+    },
+    {
+      "condition": "clipping_poisson",
+      "clip_norm": 1.0,
+      "noise_multiplier": 0.0
+    },
+    {
+      "condition": "dp_sigma_0p1",
+      "clip_norm": 1.0,
+      "noise_multiplier": 0.1
+    },
+    {
+      "condition": "dp_sigma_0p25",
+      "clip_norm": 1.0,
+      "noise_multiplier": 0.25
+    },
+    {
+      "condition": "dp_sigma_0p5",
+      "clip_norm": 1.0,
+      "noise_multiplier": 0.5
+    }
+  ]
+}

@@ -1,0 +1,683 @@
+{
+  "checks": [
+    {
+      "seed": 123,
+      "input": "llama_low_noise_test_seed123_reports_6886d9037735.zip",
+      "sha256": "b273c8728b3e319da6ca8079f908302c1eaaaa7fa28e80ea39afe3ab80dee470",
+      "merged_review_hash_verified": true,
+      "human_checked_eligible_answers": 131
+    },
+    {
+      "seed": 456,
+      "input": "llama_low_noise_test_seed456_reports_dceb7c16585b.zip",
+      "sha256": "ecd6d50134125a4657fe136de402a9283105a7a8a65aef2b66a328118cd99ca6",
+      "merged_review_hash_verified": true,
+      "human_checked_eligible_answers": 359
+    },
+    {
+      "seed": 789,
+      "input": "llama_low_noise_test_seed789_reports_c1f11bb6eebd.zip",
+      "sha256": "bbde3febca1781bc70f87a86a0c13df96b4f11d3302a8e9f7afd03dfa1a880bb",
+      "merged_review_hash_verified": true,
+      "human_checked_eligible_answers": 511
+    }
+  ],
+  "n_questions": 945,
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 20261024,
+  "interval": "percentile, individual nominal 1-0.05/9 (99.4444%), Bonferroni family of nine; conditional on fitted adapters; fixed human/AI labels",
+  "per_seed": [
+    {
+      "seed": 123,
+      "condition": "standard_poisson",
+      "score": "mean_token_entropy",
+      "accuracy": 0.8084656084656084,
+      "AUROC": 0.8235298371467413,
+      "coverage": 0.7428571428571429,
+      "risk": 0.09116809116809117,
+      "epsilon": null
+    },
+    {
+      "seed": 123,
+      "condition": "standard_poisson",
+      "score": "mean_answer_nll",
+      "accuracy": 0.8084656084656084,
+      "AUROC": 0.7975543085244858,
+      "coverage": 0.68994708994709,
+      "risk": 0.08895705521472393,
+      "epsilon": null
+    },
+    {
+      "seed": 123,
+      "condition": "standard_poisson",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.8084656084656084,
+      "AUROC": 0.8356245118741141,
+      "coverage": 0.8296296296296296,
+      "risk": 0.09183673469387756,
+      "epsilon": null
+    },
+    {
+      "seed": 123,
+      "condition": "clipping_poisson",
+      "score": "mean_token_entropy",
+      "accuracy": 0.8105820105820105,
+      "AUROC": 0.8677669676327727,
+      "coverage": 0.8201058201058201,
+      "risk": 0.09161290322580645,
+      "epsilon": null
+    },
+    {
+      "seed": 123,
+      "condition": "clipping_poisson",
+      "score": "mean_answer_nll",
+      "accuracy": 0.8105820105820105,
+      "AUROC": 0.8517073384191257,
+      "coverage": 0.7375661375661375,
+      "risk": 0.06456241032998565,
+      "epsilon": null
+    },
+    {
+      "seed": 123,
+      "condition": "clipping_poisson",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.8105820105820105,
+      "AUROC": 0.842798693058331,
+      "coverage": 0.7735449735449735,
+      "risk": 0.07523939808481532,
+      "epsilon": null
+    },
+    {
+      "seed": 123,
+      "condition": "dp_sigma_0p1",
+      "score": "mean_token_entropy",
+      "accuracy": 0.8137566137566138,
+      "AUROC": 0.837879773022816,
+      "coverage": 0.6783068783068783,
+      "risk": 0.078003120124805,
+      "epsilon": 916.26926838513
+    },
+    {
+      "seed": 123,
+      "condition": "dp_sigma_0p1",
+      "score": "mean_answer_nll",
+      "accuracy": 0.8137566137566138,
+      "AUROC": 0.8489035346967727,
+      "coverage": 0.725925925925926,
+      "risk": 0.07871720116618076,
+      "epsilon": 916.26926838513
+    },
+    {
+      "seed": 123,
+      "condition": "dp_sigma_0p1",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.8137566137566138,
+      "AUROC": 0.8852221007211254,
+      "coverage": 0.7978835978835979,
+      "risk": 0.07692307692307693,
+      "epsilon": 916.26926838513
+    },
+    {
+      "seed": 123,
+      "condition": "dp_sigma_0p25",
+      "score": "mean_token_entropy",
+      "accuracy": 0.7904761904761904,
+      "AUROC": 0.780644463375387,
+      "coverage": 0.5608465608465608,
+      "risk": 0.08490566037735849,
+      "epsilon": 53.72316341238452
+    },
+    {
+      "seed": 123,
+      "condition": "dp_sigma_0p25",
+      "score": "mean_answer_nll",
+      "accuracy": 0.7904761904761904,
+      "AUROC": 0.779055616405014,
+      "coverage": 0.6021164021164022,
+      "risk": 0.09314586994727592,
+      "epsilon": 53.72316341238452
+    },
+    {
+      "seed": 123,
+      "condition": "dp_sigma_0p25",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.7904761904761904,
+      "AUROC": 0.8866847862831799,
+      "coverage": 0.6804232804232804,
+      "risk": 0.05754276827371695,
+      "epsilon": 53.72316341238452
+    },
+    {
+      "seed": 123,
+      "condition": "dp_sigma_0p5",
+      "score": "mean_token_entropy",
+      "accuracy": 0.7798941798941799,
+      "AUROC": 0.7941498799707756,
+      "coverage": 0.5661375661375662,
+      "risk": 0.08037383177570094,
+      "epsilon": 9.172759831501384
+    },
+    {
+      "seed": 123,
+      "condition": "dp_sigma_0p5",
+      "score": "mean_answer_nll",
+      "accuracy": 0.7798941798941799,
+      "AUROC": 0.7911230560484291,
+      "coverage": 0.5544973544973545,
+      "risk": 0.08587786259541985,
+      "epsilon": 9.172759831501384
+    },
+    {
+      "seed": 123,
+      "condition": "dp_sigma_0p5",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.7798941798941799,
+      "AUROC": 0.8906462008141113,
+      "coverage": 0.6846560846560846,
+      "risk": 0.06027820710973725,
+      "epsilon": 9.172759831501384
+    },
+    {
+      "seed": 456,
+      "condition": "standard_poisson",
+      "score": "mean_token_entropy",
+      "accuracy": 0.8264550264550264,
+      "AUROC": 0.8468973486149715,
+      "coverage": 0.819047619047619,
+      "risk": 0.09043927648578812,
+      "epsilon": null
+    },
+    {
+      "seed": 456,
+      "condition": "standard_poisson",
+      "score": "mean_answer_nll",
+      "accuracy": 0.8264550264550264,
+      "AUROC": 0.8308219605883639,
+      "coverage": 0.798941798941799,
+      "risk": 0.08211920529801324,
+      "epsilon": null
+    },
+    {
+      "seed": 456,
+      "condition": "standard_poisson",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.8264550264550264,
+      "AUROC": 0.8454217544736267,
+      "coverage": 0.8423280423280424,
+      "risk": 0.08668341708542714,
+      "epsilon": null
+    },
+    {
+      "seed": 456,
+      "condition": "clipping_poisson",
+      "score": "mean_token_entropy",
+      "accuracy": 0.8211640211640212,
+      "AUROC": 0.8706002562069176,
+      "coverage": 0.8486772486772487,
+      "risk": 0.09850374064837905,
+      "epsilon": null
+    },
+    {
+      "seed": 456,
+      "condition": "clipping_poisson",
+      "score": "mean_answer_nll",
+      "accuracy": 0.8211640211640212,
+      "AUROC": 0.8605273592386995,
+      "coverage": 0.8328042328042328,
+      "risk": 0.09275730622617535,
+      "epsilon": null
+    },
+    {
+      "seed": 456,
+      "condition": "clipping_poisson",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.8211640211640212,
+      "AUROC": 0.8246202647471481,
+      "coverage": 0.8444444444444444,
+      "risk": 0.09649122807017543,
+      "epsilon": null
+    },
+    {
+      "seed": 456,
+      "condition": "dp_sigma_0p1",
+      "score": "mean_token_entropy",
+      "accuracy": 0.8116402116402116,
+      "AUROC": 0.8253885706751827,
+      "coverage": 0.6994708994708995,
+      "risk": 0.08472012102874432,
+      "epsilon": 916.26926838513
+    },
+    {
+      "seed": 456,
+      "condition": "dp_sigma_0p1",
+      "score": "mean_answer_nll",
+      "accuracy": 0.8116402116402116,
+      "AUROC": 0.8405724916865653,
+      "coverage": 0.7396825396825397,
+      "risk": 0.08297567954220315,
+      "epsilon": 916.26926838513
+    },
+    {
+      "seed": 456,
+      "condition": "dp_sigma_0p1",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.8116402116402116,
+      "AUROC": 0.8814035421824413,
+      "coverage": 0.7756613756613756,
+      "risk": 0.0723055934515689,
+      "epsilon": 916.26926838513
+    },
+    {
+      "seed": 456,
+      "condition": "dp_sigma_0p25",
+      "score": "mean_token_entropy",
+      "accuracy": 0.7915343915343915,
+      "AUROC": 0.7822823637992347,
+      "coverage": 0.5682539682539682,
+      "risk": 0.0856610800744879,
+      "epsilon": 53.72316341238452
+    },
+    {
+      "seed": 456,
+      "condition": "dp_sigma_0p25",
+      "score": "mean_answer_nll",
+      "accuracy": 0.7915343915343915,
+      "AUROC": 0.778855289231521,
+      "coverage": 0.6349206349206349,
+      "risk": 0.1,
+      "epsilon": 53.72316341238452
+    },
+    {
+      "seed": 456,
+      "condition": "dp_sigma_0p25",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.7915343915343915,
+      "AUROC": 0.8776296859306713,
+      "coverage": 0.728042328042328,
+      "risk": 0.07412790697674419,
+      "epsilon": 53.72316341238452
+    },
+    {
+      "seed": 456,
+      "condition": "dp_sigma_0p5",
+      "score": "mean_token_entropy",
+      "accuracy": 0.7788359788359789,
+      "AUROC": 0.7921195652173912,
+      "coverage": 0.5597883597883598,
+      "risk": 0.08506616257088846,
+      "epsilon": 9.172759831501384
+    },
+    {
+      "seed": 456,
+      "condition": "dp_sigma_0p5",
+      "score": "mean_answer_nll",
+      "accuracy": 0.7788359788359789,
+      "AUROC": 0.7885310484709798,
+      "coverage": 0.5544973544973545,
+      "risk": 0.08969465648854962,
+      "epsilon": 9.172759831501384
+    },
+    {
+      "seed": 456,
+      "condition": "dp_sigma_0p5",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.7788359788359789,
+      "AUROC": 0.8886162107343457,
+      "coverage": 0.6698412698412698,
+      "risk": 0.053712480252764615,
+      "epsilon": 9.172759831501384
+    },
+    {
+      "seed": 789,
+      "condition": "standard_poisson",
+      "score": "mean_token_entropy",
+      "accuracy": 0.819047619047619,
+      "AUROC": 0.8458603442283573,
+      "coverage": 0.7883597883597884,
+      "risk": 0.08322147651006712,
+      "epsilon": null
+    },
+    {
+      "seed": 789,
+      "condition": "standard_poisson",
+      "score": "mean_answer_nll",
+      "accuracy": 0.819047619047619,
+      "AUROC": 0.8291173670610634,
+      "coverage": 0.801058201058201,
+      "risk": 0.095112285336856,
+      "epsilon": null
+    },
+    {
+      "seed": 789,
+      "condition": "standard_poisson",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.819047619047619,
+      "AUROC": 0.8589124620336371,
+      "coverage": 0.8476190476190476,
+      "risk": 0.09113607990012484,
+      "epsilon": null
+    },
+    {
+      "seed": 789,
+      "condition": "clipping_poisson",
+      "score": "mean_token_entropy",
+      "accuracy": 0.8148148148148149,
+      "AUROC": 0.8674879406307977,
+      "coverage": 0.8,
+      "risk": 0.08465608465608465,
+      "epsilon": null
+    },
+    {
+      "seed": 789,
+      "condition": "clipping_poisson",
+      "score": "mean_answer_nll",
+      "accuracy": 0.8148148148148149,
+      "AUROC": 0.85047866419295,
+      "coverage": 0.7671957671957672,
+      "risk": 0.07724137931034483,
+      "epsilon": null
+    },
+    {
+      "seed": 789,
+      "condition": "clipping_poisson",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.8148148148148149,
+      "AUROC": 0.8450834879406307,
+      "coverage": 0.8328042328042328,
+      "risk": 0.09529860228716645,
+      "epsilon": null
+    },
+    {
+      "seed": 789,
+      "condition": "dp_sigma_0p1",
+      "score": "mean_token_entropy",
+      "accuracy": 0.8116402116402116,
+      "AUROC": 0.8247147063562985,
+      "coverage": 0.7132275132275132,
+      "risk": 0.08753709198813056,
+      "epsilon": 916.26926838513
+    },
+    {
+      "seed": 789,
+      "condition": "dp_sigma_0p1",
+      "score": "mean_answer_nll",
+      "accuracy": 0.8116402116402116,
+      "AUROC": 0.8358188183935662,
+      "coverage": 0.7555555555555555,
+      "risk": 0.0896358543417367,
+      "epsilon": 916.26926838513
+    },
+    {
+      "seed": 789,
+      "condition": "dp_sigma_0p1",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.8116402116402116,
+      "AUROC": 0.8804110572345195,
+      "coverage": 0.7894179894179895,
+      "risk": 0.08176943699731903,
+      "epsilon": 916.26926838513
+    },
+    {
+      "seed": 789,
+      "condition": "dp_sigma_0p25",
+      "score": "mean_token_entropy",
+      "accuracy": 0.7936507936507937,
+      "AUROC": 0.7876717948717948,
+      "coverage": 0.5492063492063493,
+      "risk": 0.0789980732177264,
+      "epsilon": 53.72316341238452
+    },
+    {
+      "seed": 789,
+      "condition": "dp_sigma_0p25",
+      "score": "mean_answer_nll",
+      "accuracy": 0.7936507936507937,
+      "AUROC": 0.7829128205128205,
+      "coverage": 0.6137566137566137,
+      "risk": 0.09827586206896552,
+      "epsilon": 53.72316341238452
+    },
+    {
+      "seed": 789,
+      "condition": "dp_sigma_0p25",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.7936507936507937,
+      "AUROC": 0.8801709401709401,
+      "coverage": 0.6867724867724868,
+      "risk": 0.05701078582434515,
+      "epsilon": 53.72316341238452
+    },
+    {
+      "seed": 789,
+      "condition": "dp_sigma_0p5",
+      "score": "mean_token_entropy",
+      "accuracy": 0.7724867724867726,
+      "AUROC": 0.79554635234151,
+      "coverage": 0.5576719576719577,
+      "risk": 0.0872865275142315,
+      "epsilon": 9.172759831501384
+    },
+    {
+      "seed": 789,
+      "condition": "dp_sigma_0p5",
+      "score": "mean_answer_nll",
+      "accuracy": 0.7724867724867726,
+      "AUROC": 0.7931570563873845,
+      "coverage": 0.5798941798941799,
+      "risk": 0.09306569343065693,
+      "epsilon": 9.172759831501384
+    },
+    {
+      "seed": 789,
+      "condition": "dp_sigma_0p5",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.7724867724867726,
+      "AUROC": 0.8986333227142402,
+      "coverage": 0.6624338624338625,
+      "risk": 0.05591054313099041,
+      "epsilon": 9.172759831501384
+    }
+  ],
+  "means": [
+    {
+      "condition": "standard_poisson",
+      "score": "mean_token_entropy",
+      "accuracy": 0.817989418,
+      "AUROC": 0.83876251,
+      "coverage": 0.7834215168,
+      "risk": 0.0882762814,
+      "epsilon": null
+    },
+    {
+      "condition": "standard_poisson",
+      "score": "mean_answer_nll",
+      "accuracy": 0.817989418,
+      "AUROC": 0.8191645454,
+      "coverage": 0.7633156966,
+      "risk": 0.0887295153,
+      "epsilon": null
+    },
+    {
+      "condition": "standard_poisson",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.817989418,
+      "AUROC": 0.8466529095,
+      "coverage": 0.8398589065,
+      "risk": 0.0898854106,
+      "epsilon": null
+    },
+    {
+      "condition": "clipping_poisson",
+      "score": "mean_token_entropy",
+      "accuracy": 0.8155202822,
+      "AUROC": 0.8686183882,
+      "coverage": 0.8229276896,
+      "risk": 0.0915909095,
+      "epsilon": null
+    },
+    {
+      "condition": "clipping_poisson",
+      "score": "mean_answer_nll",
+      "accuracy": 0.8155202822,
+      "AUROC": 0.8542377873,
+      "coverage": 0.7791887125,
+      "risk": 0.078187032,
+      "epsilon": null
+    },
+    {
+      "condition": "clipping_poisson",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.8155202822,
+      "AUROC": 0.8375008152,
+      "coverage": 0.8169312169,
+      "risk": 0.0890097428,
+      "epsilon": null
+    },
+    {
+      "condition": "dp_sigma_0p1",
+      "score": "mean_token_entropy",
+      "accuracy": 0.812345679,
+      "AUROC": 0.8293276834,
+      "coverage": 0.6970017637,
+      "risk": 0.083420111,
+      "epsilon": 916.2692683851
+    },
+    {
+      "condition": "dp_sigma_0p1",
+      "score": "mean_answer_nll",
+      "accuracy": 0.812345679,
+      "AUROC": 0.8417649483,
+      "coverage": 0.7403880071,
+      "risk": 0.083776245,
+      "epsilon": 916.2692683851
+    },
+    {
+      "condition": "dp_sigma_0p1",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.812345679,
+      "AUROC": 0.8823455667,
+      "coverage": 0.787654321,
+      "risk": 0.0769993691,
+      "epsilon": 916.2692683851
+    },
+    {
+      "condition": "dp_sigma_0p25",
+      "score": "mean_token_entropy",
+      "accuracy": 0.7918871252,
+      "AUROC": 0.783532874,
+      "coverage": 0.5594356261,
+      "risk": 0.0831882712,
+      "epsilon": 53.7231634124
+    },
+    {
+      "condition": "dp_sigma_0p25",
+      "score": "mean_answer_nll",
+      "accuracy": 0.7918871252,
+      "AUROC": 0.7802745754,
+      "coverage": 0.6169312169,
+      "risk": 0.0971405773,
+      "epsilon": 53.7231634124
+    },
+    {
+      "condition": "dp_sigma_0p25",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.7918871252,
+      "AUROC": 0.8814951375,
+      "coverage": 0.6984126984,
+      "risk": 0.0628938204,
+      "epsilon": 53.7231634124
+    },
+    {
+      "condition": "dp_sigma_0p5",
+      "score": "mean_token_entropy",
+      "accuracy": 0.7770723104,
+      "AUROC": 0.7939385992,
+      "coverage": 0.5611992945,
+      "risk": 0.084242174,
+      "epsilon": 9.1727598315
+    },
+    {
+      "condition": "dp_sigma_0p5",
+      "score": "mean_answer_nll",
+      "accuracy": 0.7770723104,
+      "AUROC": 0.7909370536,
+      "coverage": 0.562962963,
+      "risk": 0.0895460708,
+      "epsilon": 9.1727598315
+    },
+    {
+      "condition": "dp_sigma_0p5",
+      "score": "discrete_semantic_entropy",
+      "accuracy": 0.7770723104,
+      "AUROC": 0.8926319114,
+      "coverage": 0.6723104056,
+      "risk": 0.0566337435,
+      "epsilon": 9.1727598315
+    }
+  ],
+  "primary_contrasts": [
+    {
+      "condition": "dp_sigma_0p1",
+      "score": "mean_token_entropy",
+      "delta_AUROC": -0.03929070480539687,
+      "adjusted_lower": -0.0717455567318839,
+      "adjusted_upper": -0.006800110039398432
+    },
+    {
+      "condition": "dp_sigma_0p1",
+      "score": "mean_answer_nll",
+      "delta_AUROC": -0.012472839024623816,
+      "adjusted_lower": -0.04631914942374404,
+      "adjusted_upper": 0.021360301337052547
+    },
+    {
+      "condition": "dp_sigma_0p1",
+      "score": "discrete_semantic_entropy",
+      "delta_AUROC": 0.04484475146399214,
+      "adjusted_lower": 0.004038580925516962,
+      "adjusted_upper": 0.08445193342232887
+    },
+    {
+      "condition": "dp_sigma_0p25",
+      "score": "mean_token_entropy",
+      "delta_AUROC": -0.08508551414135712,
+      "adjusted_lower": -0.13264563645312544,
+      "adjusted_upper": -0.03703273902559045
+    },
+    {
+      "condition": "dp_sigma_0p25",
+      "score": "mean_answer_nll",
+      "delta_AUROC": -0.07396321190047339,
+      "adjusted_lower": -0.12350032660903568,
+      "adjusted_upper": -0.02497919261775873
+    },
+    {
+      "condition": "dp_sigma_0p25",
+      "score": "discrete_semantic_entropy",
+      "delta_AUROC": 0.04399432221289401,
+      "adjusted_lower": 0.004340120089466224,
+      "adjusted_upper": 0.08399403603774573
+    },
+    {
+      "condition": "dp_sigma_0p5",
+      "score": "mean_token_entropy",
+      "delta_AUROC": -0.07467978898027039,
+      "adjusted_lower": -0.12245429217520534,
+      "adjusted_upper": -0.024983887057513504
+    },
+    {
+      "condition": "dp_sigma_0p5",
+      "score": "mean_answer_nll",
+      "delta_AUROC": -0.06330073364799416,
+      "adjusted_lower": -0.11256525952306459,
+      "adjusted_upper": -0.012097842245995732
+    },
+    {
+      "condition": "dp_sigma_0p5",
+      "score": "discrete_semantic_entropy",
+      "delta_AUROC": 0.055131096172195804,
+      "adjusted_lower": 0.016766841892882377,
+      "adjusted_upper": 0.09525385547672419
+    }
+  ]
+}

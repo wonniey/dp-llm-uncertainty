@@ -1,0 +1,72 @@
+if not SCORES_PATH.exists():
+    from datasets import load_dataset
+    import json
+    import re
+    import unicodedata
+
+    SPLIT_PATH = PROJECT_DIR / "data" / "qa_eval_splits_v1.json"
+
+    def question_key(text):
+        text = unicodedata.normalize("NFKC", text).casefold()
+        return re.sub(r"\W+", " ", text).strip()
+
+    if SPLIT_PATH.exists():
+        with open(SPLIT_PATH, encoding="utf-8") as f:
+            splits = json.load(f)
+    else:
+        validation = load_dataset(
+            "mandarjoshi/trivia_qa",
+            "rc.nocontext",
+            split="validation",
+        ).shuffle(seed=123)
+
+        selected = []
+        seen_ids = set()
+        seen_questions = set()
+
+        for row in validation:
+            qid = row["question_id"]
+            key = question_key(row["question"])
+
+            if qid in seen_ids or key in seen_questions:
+                continue
+
+            answer = row["answer"]
+            aliases = sorted(set(
+                [answer["value"]]
+                + answer.get("aliases", [])
+                + answer.get("normalized_aliases", [])
+            ))
+            aliases = [a for a in aliases if a.strip()]
+
+            if not aliases:
+                continue
+
+            selected.append({
+                "question_id": qid,
+                "question": row["question"],
+                "reference_answer": answer["value"],
+                "accepted_answers": aliases,
+            })
+            seen_ids.add(qid)
+            seen_questions.add(key)
+
+            if len(selected) == 1200:
+                break
+
+        assert len(selected) == 1200, "Insufficient eligible questions."
+
+        splits = {
+            "dev": selected[:200],
+            "test": selected[200:1200],
+        }
+
+        with open(SPLIT_PATH, "w", encoding="utf-8") as f:
+            json.dump(splits, f, ensure_ascii=False, indent=2)
+
+    dev_records = splits["dev"]
+
+    print("Development questions:", len(dev_records))
+    print("Reserved test questions:", len(splits["test"]))
+else:
+    print('Saved scores found; no dataset download needed.')

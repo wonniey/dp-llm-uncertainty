@@ -1,0 +1,10 @@
+{
+  "changed_rows": 9,
+  "conditions": [
+    "dp_sigma_0p1",
+    "dp_sigma_0p25",
+    "dp_sigma_0p5"
+  ],
+  "question_id": "sfq_3310",
+  "scores_thresholds_and_generation_bindings_unchanged": true
+}

@@ -1,0 +1,4 @@
+{
+  "exact_content_conflicts": 0,
+  "scope": "Exact question_id/question/prediction/reference_answer/accepted_answers; not semantic equivalence of differently worded answers."
+}

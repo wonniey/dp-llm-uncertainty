@@ -1,0 +1,1462 @@
+{
+  "seed": 20261022,
+  "sampling": "30 unique nonempty text-distinct pairs sampled from those grouped together anywhere, then 30 from those separated anywhere excluding selected pairs; mixed decisions can occur across runs; shuffled presentation. Not a representative estimate of overall sample-pair error.",
+  "pool_unique_pairs": 7201,
+  "pairs": [
+    {
+      "pair_id": "b47ed289e5ee2b699def",
+      "question_id": "tb_83",
+      "a": "Medusa",
+      "b": "the legend of the Cyclops",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "53f8ab419ccd324e047a",
+      "question_id": "bb_9117",
+      "a": "'Baby Birch'",
+      "b": "'Chilly Willy'",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 789,
+          "condition": "clipping_poisson",
+          "same_cluster": false
+        },
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "e3069963cc0bfd03c326",
+      "question_id": "odql_8729",
+      "a": "JAMES DRUMMOND",
+      "b": "JOHN PONSONBY FLETCHER",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "3336d74f6a695f8d3fe8",
+      "question_id": "bb_9117",
+      "a": "'Cheeky Wipes'",
+      "b": "'SHEILA'",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 789,
+          "condition": "clipping_poisson",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "738d469fe16fed6df2db",
+      "question_id": "qf_277",
+      "a": "PRIVATE WOODHOUSE",
+      "b": "Private Kepple",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": false
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": false
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "7398253477fb21638595",
+      "question_id": "qw_10089",
+      "a": "Jim Brown",
+      "b": "Muhammad Ali",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "clipping_poisson",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "b5a15083b0dfaca14329",
+      "question_id": "bt_3047",
+      "a": "Nyala are a type of antelope.",
+      "b": "mammal",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "4061f1f79175690cb676",
+      "question_id": "sfq_16554",
+      "a": "MADAMA BUTTERFLY",
+      "b": "MADAME BUTTERFLY",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "bce7371897c19b7e6389",
+      "question_id": "jp_2935",
+      "a": "FIFA 2010 World Cup",
+      "b": "The 2010 FIFA World Cup",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "4dccaa9023056a485fba",
+      "question_id": "sfq_6175",
+      "a": "IF I should die, think only this of me",
+      "b": "If I should die, think only this of me:",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "3b9748fb2f1504fa1abe",
+      "question_id": "bt_1378",
+      "a": "The Loch Ness Monster",
+      "b": "The face of a man who had undergone surgery to remove a large facial tumor",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "8a0ebf89b59db0264913",
+      "question_id": "sfq_13640",
+      "a": "1500 Metres",
+      "b": "1500 metres",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "76c5e681d1d129b47cdf",
+      "question_id": "dpql_580",
+      "a": "Catholic and Jewish",
+      "b": "Political societies",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "811f14d4e2fbd7ddb09c",
+      "question_id": "qw_7594",
+      "a": "Deerstalker Hat",
+      "b": "Deerstalker hat",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "2943cfd1f85c8da63407",
+      "question_id": "qz_4231",
+      "a": "Eve",
+      "b": "LIL' KIM",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "c95e971562b0e28e24c0",
+      "question_id": "bb_1588",
+      "a": "A fox",
+      "b": "Fox",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "f62ecb69ae05343578c2",
+      "question_id": "dpql_580",
+      "a": "Trade Unions",
+      "b": "Unions",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "standard_poisson",
+          "same_cluster": false
+        },
+        {
+          "seed": 456,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "8e82fb9bd8120ca18312",
+      "question_id": "bb_9117",
+      "a": "Chilly Willy",
+      "b": "The Chilly Willy",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "030f195af49f254f6615",
+      "question_id": "jp_2935",
+      "a": "2010 FIFA World Cup",
+      "b": "The 2010 FIFA World Cup",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "c6733cef044289140c0e",
+      "question_id": "qb_3556",
+      "a": "HEATHER HATCHER",
+      "b": "HEATHER LAYNE",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "099bf1a05a0f4f753c2e",
+      "question_id": "bt_3047",
+      "a": "It is an antelope.",
+      "b": "Ungulate",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "9aedd014eee6c4f4872c",
+      "question_id": "sfq_6175",
+      "a": "'If I should die, think only this of me'",
+      "b": "IF I should die, think only this of me",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "23d17dc75947d5aa6596",
+      "question_id": "bb_2139",
+      "a": "A WRECKING BALL",
+      "b": "Writ of Right",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "819deb405997fc9409e0",
+      "question_id": "bt_61",
+      "a": "K.D. LANG",
+      "b": "k D Lang",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "a6fd44de7d15cdf24a20",
+      "question_id": "qw_3576",
+      "a": "\"Kill Bill\"",
+      "b": "Kill Bill Vol. 1 and Kill Bill Vol. 2",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": false
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "9fb376fd3fbb34d76cda",
+      "question_id": "odql_8729",
+      "a": "NICHOLAS FONDA",
+      "b": "NICHOLAS WELLS",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "b0b4eb675c1b8c35ec81",
+      "question_id": "qf_2590",
+      "a": "LAURENCE BRADLEY",
+      "b": "LAURENCE LARCOMBE",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "4473a52c6ac7bb592b96",
+      "question_id": "dpql_580",
+      "a": "Political Unions",
+      "b": "Political meetings",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "3100ffbee512a9c54138",
+      "question_id": "dpql_151",
+      "a": "MOUNT MCKINLEY",
+      "b": "Mount McKinley",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "standard_poisson",
+          "same_cluster": false
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "3253374132355bfbe293",
+      "question_id": "odql_9352",
+      "a": "DOLLAR",
+      "b": "Woolworths",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "36e623059ec3f9cca3dd",
+      "question_id": "qb_2148",
+      "a": "Bikini",
+      "b": "The Bikini",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "04dd7430f509b9916d7d",
+      "question_id": "qb_4163",
+      "a": "200 metres",
+      "b": "Pole vault",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "e6b460ac153b9b41c682",
+      "question_id": "bb_9117",
+      "a": "'Chillie'",
+      "b": "Cheggers",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "6371d4704a0be74e34ba",
+      "question_id": "bt_61",
+      "a": "Joni Mitchell",
+      "b": "K.D. LANG",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": false
+        },
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "8bbfff669f13492c096c",
+      "question_id": "bt_3299",
+      "a": "CLAUDE RAINES",
+      "b": "JEAN-POL JARRE",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "163be6bc11c8ecdc02a3",
+      "question_id": "dpql_580",
+      "a": "COMBINATIONS",
+      "b": "Political Meetings",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "standard_poisson",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "dd5a8d13a5ce47247ebd",
+      "question_id": "qw_3576",
+      "a": "KILL BILL VOL 1 AND 2",
+      "b": "KILL BILL VOL. 1 and KILL BILL VOL. 2",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "2743e8fd10a091ece9f5",
+      "question_id": "qf_277",
+      "a": "PRIVATE WOODHOUSE",
+      "b": "Private Godfrey",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "152740dd7cc18303ba10",
+      "question_id": "qb_9584",
+      "a": "Captain Edmund Blackadder",
+      "b": "Captain George Edward Cornwallis West",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "6c0936110fdb1e37e987",
+      "question_id": "dpql_2210",
+      "a": "Five",
+      "b": "Three",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 789,
+          "condition": "clipping_poisson",
+          "same_cluster": false
+        },
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "456b7beb2852b5b16270",
+      "question_id": "sfq_10687",
+      "a": "Calories",
+      "b": "calories",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "90b2cea8d1f205cb0875",
+      "question_id": "sfq_14806",
+      "a": "LLEYN",
+      "b": "The Lleyn Peninsula",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "4b70aeda9c75d9167bbd",
+      "question_id": "qw_3576",
+      "a": "KILL BILL",
+      "b": "KILL BILL VOLUME 1 and KILL BILL VOLUME 2",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "d688e5c24116fbd4e5d0",
+      "question_id": "odql_5501",
+      "a": "A HARD DAY'S NIGHT",
+      "b": "A Hard Day's Night",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "3be944817c06514dcaf5",
+      "question_id": "bb_7375",
+      "a": "Inquiry into the death of Diana, Princess of Wales",
+      "b": "The inquest into the death of Princess Diana",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "de93f38474e6fe66f732",
+      "question_id": "qz_4435",
+      "a": "TOMMY LEE JONES",
+      "b": "Tommy Lee Jones",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "6c5b20aba020aeec2ac8",
+      "question_id": "tb_1852",
+      "a": "LIKE A PRAYER",
+      "b": "Like A Prayer",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "720bf4e0d3008fa3988b",
+      "question_id": "odql_14527",
+      "a": "Litter",
+      "b": "Rubbish",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "7583a40621832639bbaa",
+      "question_id": "dpql_5194",
+      "a": "CHERYL HILLYER",
+      "b": "CHRISSIE TROTTER",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "2fcd00a5a47bae984d76",
+      "question_id": "sfq_6175",
+      "a": "'If I should die, think only this of me'",
+      "b": "If I should die, think only this of me",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "ea3f0aff1df5d20306d7",
+      "question_id": "qb_8707",
+      "a": "DOLLY",
+      "b": "Sue",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "clipping_poisson",
+          "same_cluster": false
+        },
+        {
+          "seed": 456,
+          "condition": "clipping_poisson",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "24f65a22ab819ce10aff",
+      "question_id": "qw_6139",
+      "a": "Passion Flower",
+      "b": "Passionflower",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "clipping_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "0998152918b7b34913f4",
+      "question_id": "jp_3453",
+      "a": "SURFING",
+      "b": "Surfing",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "342a33e649a69f357a3e",
+      "question_id": "qw_3576",
+      "a": "KILL BILL VOLUME 1 AND KILL BILL VOLUME 2",
+      "b": "KILL BILL: VOL. 1 AND KILL BILL: VOL. 2",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "c61919b4783c45a4349d",
+      "question_id": "qg_2424",
+      "a": "Eight-ball",
+      "b": "Pyramid",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": false
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": false
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": false
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": false
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p1",
+          "same_cluster": false
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": false
+        },
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "bd933b59e61627a7efe1",
+      "question_id": "bt_1819",
+      "a": "Royal Birkdale",
+      "b": "The Old Course, St Andrews",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": false
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": false
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "06512a709e72ff423760",
+      "question_id": "dpql_1994",
+      "a": "Jupiter",
+      "b": "Neptune",
+      "sampled_stratum": "different_cluster",
+      "occurrences": [
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": false
+        }
+      ]
+    },
+    {
+      "pair_id": "d2a76677a16812885ed3",
+      "question_id": "qw_1298",
+      "a": "JAPANESE NAVY",
+      "b": "Japanese navy",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "ae80ade4260c5c2c31dd",
+      "question_id": "sfq_17840",
+      "a": "JORDAN",
+      "b": "Jordan",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "standard_poisson",
+          "same_cluster": true
+        }
+      ]
+    },
+    {
+      "pair_id": "ee9b224afe9b48e71919",
+      "question_id": "dpql_4823",
+      "a": "GREENOCK",
+      "b": "Greenock",
+      "sampled_stratum": "same_cluster",
+      "occurrences": [
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 123,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 456,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p25",
+          "same_cluster": true
+        },
+        {
+          "seed": 789,
+          "condition": "dp_sigma_0p5",
+          "same_cluster": true
+        }
+      ]
+    }
+  ]
+}
