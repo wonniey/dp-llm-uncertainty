@@ -1,0 +1,172 @@
+{
+  "status": "Exploratory, post-results secondary analysis",
+  "n_questions": 945,
+  "seeds": [
+    123,
+    456,
+    789
+  ],
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 20261024,
+  "interval_level": 0.9973684210526316,
+  "family_size": 19,
+  "checks": [
+    {
+      "seed": 123,
+      "input": "llama_low_noise_test_seed123_reports_6886d9037735.zip",
+      "sha256": "b273c8728b3e319da6ca8079f908302c1eaaaa7fa28e80ea39afe3ab80dee470",
+      "merged_review_hash_verified": true,
+      "human_checked_eligible_answers": 131
+    },
+    {
+      "seed": 456,
+      "input": "llama_low_noise_test_seed456_reports_dceb7c16585b.zip",
+      "sha256": "ecd6d50134125a4657fe136de402a9283105a7a8a65aef2b66a328118cd99ca6",
+      "merged_review_hash_verified": true,
+      "human_checked_eligible_answers": 359
+    },
+    {
+      "seed": 789,
+      "input": "llama_low_noise_test_seed789_reports_38433cca7401.zip",
+      "sha256": "d8d42905ad50f827da3641b0b122e50d2d906fb47db763b4999caca6403e5f53",
+      "merged_review_hash_verified": true,
+      "human_checked_eligible_answers": 374
+    }
+  ],
+  "primary_results_reproduced": true,
+  "contrasts": [
+    {
+      "kind": "Direct estimator comparison",
+      "label": "standard_poisson: semantic minus mean_token_entropy",
+      "delta_AUROC": 0.007890399463769127,
+      "lower": -0.040369443243116095,
+      "upper": 0.05359025388583809
+    },
+    {
+      "kind": "Direct estimator comparison",
+      "label": "standard_poisson: semantic minus mean_answer_nll",
+      "delta_AUROC": 0.02748836406915489,
+      "lower": -0.015958684349815316,
+      "upper": 0.06948451834127349
+    },
+    {
+      "kind": "Direct estimator comparison",
+      "label": "clipping_poisson: semantic minus mean_token_entropy",
+      "delta_AUROC": -0.031117572908126112,
+      "lower": -0.06918561063772545,
+      "upper": 0.006197284920102285
+    },
+    {
+      "kind": "Direct estimator comparison",
+      "label": "clipping_poisson: semantic minus mean_answer_nll",
+      "delta_AUROC": -0.016736972034888664,
+      "lower": -0.05204803961968715,
+      "upper": 0.01826814600825444
+    },
+    {
+      "kind": "Direct estimator comparison",
+      "label": "dp_sigma_0p1: semantic minus mean_token_entropy",
+      "delta_AUROC": 0.053017883361262896,
+      "lower": 0.007628030363767303,
+      "upper": 0.09851243353331343
+    },
+    {
+      "kind": "Direct estimator comparison",
+      "label": "dp_sigma_0p1: semantic minus mean_answer_nll",
+      "delta_AUROC": 0.04058061845372729,
+      "lower": 0.000655356222926689,
+      "upper": 0.0792581394185224
+    },
+    {
+      "kind": "Direct estimator comparison",
+      "label": "dp_sigma_0p25: semantic minus mean_token_entropy",
+      "delta_AUROC": 0.09796226344612502,
+      "lower": 0.04691506085185711,
+      "upper": 0.14938875793392395
+    },
+    {
+      "kind": "Direct estimator comparison",
+      "label": "dp_sigma_0p25: semantic minus mean_answer_nll",
+      "delta_AUROC": 0.10122056207847874,
+      "lower": 0.05420622499723952,
+      "upper": 0.14970932701055578
+    },
+    {
+      "kind": "Direct estimator comparison",
+      "label": "dp_sigma_0p5: semantic minus mean_token_entropy",
+      "delta_AUROC": 0.09869331224434008,
+      "lower": 0.05207227768552864,
+      "upper": 0.1480681673969961
+    },
+    {
+      "kind": "Direct estimator comparison",
+      "label": "dp_sigma_0p5: semantic minus mean_answer_nll",
+      "delta_AUROC": 0.1016948577853013,
+      "lower": 0.056489368979958994,
+      "upper": 0.14869779485625628
+    },
+    {
+      "kind": "Change in semantic advantage versus clipping",
+      "label": "dp_sigma_0p1: semantic versus mean_token_entropy",
+      "delta_AUROC": 0.08413545626938901,
+      "lower": 0.038357868547548864,
+      "upper": 0.12971808897562082
+    },
+    {
+      "kind": "Change in semantic advantage versus clipping",
+      "label": "dp_sigma_0p1: semantic versus mean_answer_nll",
+      "delta_AUROC": 0.057317590488615955,
+      "lower": 0.01995132769073443,
+      "upper": 0.09511937994119932
+    },
+    {
+      "kind": "Change in semantic advantage versus clipping",
+      "label": "dp_sigma_0p25: semantic versus mean_token_entropy",
+      "delta_AUROC": 0.12907983635425113,
+      "lower": 0.07313252110069082,
+      "upper": 0.18396460126750597
+    },
+    {
+      "kind": "Change in semantic advantage versus clipping",
+      "label": "dp_sigma_0p25: semantic versus mean_answer_nll",
+      "delta_AUROC": 0.1179575341133674,
+      "lower": 0.06889189837352523,
+      "upper": 0.1693902025023593
+    },
+    {
+      "kind": "Change in semantic advantage versus clipping",
+      "label": "dp_sigma_0p5: semantic versus mean_token_entropy",
+      "delta_AUROC": 0.1298108851524662,
+      "lower": 0.07622233952751954,
+      "upper": 0.18146994945764403
+    },
+    {
+      "kind": "Change in semantic advantage versus clipping",
+      "label": "dp_sigma_0p5: semantic versus mean_answer_nll",
+      "delta_AUROC": 0.11843182982018996,
+      "lower": 0.06905563803208759,
+      "upper": 0.16870408892679073
+    },
+    {
+      "kind": "Clipping minus standard",
+      "label": "mean_token_entropy",
+      "delta_AUROC": 0.029855878160139238,
+      "lower": 0.008164762493740254,
+      "upper": 0.0519668073426697
+    },
+    {
+      "kind": "Clipping minus standard",
+      "label": "mean_answer_nll",
+      "delta_AUROC": 0.035073241892287554,
+      "lower": 0.011656147569559851,
+      "upper": 0.05868518046785277
+    },
+    {
+      "kind": "Clipping minus standard",
+      "label": "discrete_semantic_entropy",
+      "delta_AUROC": -0.009152094211756001,
+      "lower": -0.0381421962383187,
+      "upper": 0.019891153129291954
+    }
+  ]
+}
