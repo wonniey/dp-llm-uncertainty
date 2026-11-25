@@ -27,6 +27,7 @@ not privacy-budget values.
 | `notebooks/03_evaluate_test.ipynb` | Held-out test workflow and reporting |
 | `notebooks/USAGE.md` | Notebook setup and execution limitations |
 | `final_test_analysis_corrected/` | Main results, analysis script, and figure |
+| `secondary_test_analysis/` | Analysis script and results for the 19 exploratory RQ1 and RQ2 AUROC contrasts in Appendix C |
 | `rq3_test_analysis/` | Selective-answering results and analysis |
 | `training_records/` | Training configurations and summaries |
 | `upload/` | Saved test-report bundles |
@@ -34,7 +35,8 @@ not privacy-budget values.
 
 ## Results
 
-See the [main results](final_test_analysis_corrected/report.md)
+See the [main results](final_test_analysis_corrected/report.md),
+[exploratory RQ1 and RQ2 comparisons](secondary_test_analysis/report.md),
 and [selective-answering results](rq3_test_analysis/report.md).
 
 ![Main results](final_test_analysis_corrected/primary_comparisons.png)
@@ -46,6 +48,7 @@ Run from the repository root:
 ```bash
 pip install -r requirements-analysis.txt
 python final_test_analysis_corrected/analyze.py
+python secondary_test_analysis/analyze.py
 python rq3_test_analysis/analyze.py
 ```
 
